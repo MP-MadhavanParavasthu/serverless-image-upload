@@ -1,0 +1,14 @@
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+.aws/
+*.pem
+*.key
+*.zip
+image-upload/configure set cli_pager *
+image-upload/lambda wait function-active --function-name image-upload-handler
